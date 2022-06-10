@@ -1,4 +1,5 @@
-import java.util.Calendar;
+import java.time.LocalDate;
+import java.time.temporal.ChronoUnit;
 
 public class Shaving {
 
@@ -6,11 +7,11 @@ public class Shaving {
     public static int PARTIAL_SHAVE = 1;
     public static int FULL_SHAVE = 2;
 
-    public Shaving(Calendar start, int shaveType) {
+    public Shaving(LocalDate start, int shaveType) {
         // TODO: Implement me!
     }
 
-    public int getShaveType(Calendar date) {
+    public int getShaveType(LocalDate date) {
         // TODO: Implement me!
         return 0;
     }
